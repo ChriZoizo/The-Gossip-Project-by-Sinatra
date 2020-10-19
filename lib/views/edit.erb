@@ -1,14 +1,23 @@
 <html>
-  <head>
-    <title>Edition potin</title>
+  <head>                                            <!-- centrer -->
+    <title>Edition de potin</title>              
+    <style>
+     h1 {text-align: center}
+    h3 {text-align: center}
+    h2 {text-align: center}
+    h4 {text-align: center}
+    p {text-align: center}
+    form {text-align: center}
+  </style>
   </head>
-  <body>
-    <h1>Modification potin</h1>
-    <p>Quel connerie tu veux encore ajouter ?</p>
-    <form action='' method='POST'>
-      Balance toi : <input type='text' name='gossip_author'/><br/>
-      Modifie le potin : <input type='text' name='gossip_content'/><br/>
-      <input type='submit'/>
+  <body style="background-color:lightgrey;">           <!-- Metre un background gris claire -->
+    <h1>Modification de potin</h1>                          
+    <h3>Quel connerie tu veux encore ajouter ? XD</h3>                   
+    <form action='' method='POST'>                          <!-- Fromulaire pour editer un potin -->
+      Ton nom balance !: <input type='text' name='gossip_author'/><br/><p></p>        <!-- Ici l'auteur -->
+      Ce que tu balance : <input type='text' name='gossip_content'/><br/>             <!-- Ici le contenu -->
+      <p></p>
+      <input type='submit'/>                                <!-- Soumettre le formulaire -->
     </form>
   </body>
 </html>

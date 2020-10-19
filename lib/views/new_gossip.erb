@@ -1,22 +1,23 @@
 <html>
   <head>
     <title>Créer un racontard</title>
-    <style>
-      h1 {text-align: center}
+    <style>                                      
+      h1 {text-align: center}                
       h2 {text-align: center}
       h4 {text-align: center}
       ul {text-align: center}
       li {text-align: center}
     </style>
-  </head>
-  <body style="background-color:lightgrey;">
+  </head>                                            <!--apres avoir centré la page-->   
+  <body style="background-color:lightgrey;">         <!-- Background en gris claire --> 
   <body>
-    <h1>Crée un potin !</h1>
+    <h1>Crée un potin !</h1> 
     <h4>Balance ton potin via le formulaire ci-dessous</h4>
-    <ul><form action='/gossips/new/' method='POST'>
-      Balance ton blase : <input type='text' name='gossip_author'/><br/></li>
-      Balance ton potin : <input type='text' name='gossip_content'/><br/></li>
-      <input type='submit'/>
+    <ul><form action='/gossips/new/' method='POST'>             <!-- Formulaire pour creé un nouveau ragot --> 
+      Balance ton blase : <input type='text' name='gossip_author'/><br/></li>            <!-- Ici on entre son nom --> 
+      Balance ton potin : <input type='text' name='gossip_content'/><br/></li>           <!-- Ici le vieux ragot moisi que t'as a raconter --> 
+      <input type='submit'/>                                                             <!-- Boutton pour soumettre le formulaire, apres une lourde verif par le staff, publication possible --> 
     </form></ul>
   </body>
 </html>
+<!-- The End --> 

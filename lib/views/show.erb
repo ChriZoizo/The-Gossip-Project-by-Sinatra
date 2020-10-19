@@ -1,8 +1,8 @@
 <html>
   <head>
-    <title>Potin</title>
-        <style>
-      h1 {text-align: center}
+    <title>Potin</title>                         <!-- ERB pour montrer un seul potin -->
+      <style>
+      h1 {text-align: center}                       
       h2 {text-align: center}
       h3 {text-align: center}
       h4 {text-align: center}
@@ -11,12 +11,12 @@
       p {text-align: center}
     </style>
   </head>
-    <body style="background-color:lightgrey;">
-      <h1><b>Fiche</b></h1>
-        <h2>Voici le potin <%"N° #{id}"%></h2>
-          <h3 style="color:darkred;"><%= gossip.author%></div></h3>
-            <h4><%= gossip.content%><br/></h4>
-          <h2><a href=<%="/gossips/#{id}/edit/"%> style=color:darkred>Editer</a></h2>
-            <h4>Pour revenir a l'index clique =>> <a href="/">ICI</a> <<=</h4>
-          </body>
-        </html>
+    <body style="background-color:lightgrey;">      <!-- Background en gris claire, et text centré -->
+      <h1><b>Fiche</b></h1> 
+      <h2>Voici le potin <%"N° #{id}"%></h2>
+      <h3 style="color:darkred;"><%= gossip.author%></div></h3>              <!-- affichage de l'auteur -->
+      <h4><%= gossip.content%><br/></h4>                                     <!-- affichage du contenu -->
+      <h2><a href=<%="/gossips/#{id}/edit/"%> style=color:darkred>Editer</a></h2>       <!-- Lien pour edité le potin -->
+      <h4>Pour revenir a l'index clique =>> <a href="/">ICI</a> <<=</h4>     <!-- Lien pour revenir a l'index -->
+    </body>
+</html>

@@ -1,31 +1,40 @@
 # Chris Gossip Project
 
 This is the Gossip Project from the school THP
-Gossip project is an app for ow want to share some gossips.
+Gossip project is an app for how want to share some gossips.
 Feel free to try
+
+Options:
+
+-See all gossips
+
+-Write new gossip
+
+-Update gossip (modify)
 
 ## Installation
 
-Download the project (.zip) and unpack them 
+Download the project (.zip) and unzip him in your workfolder
 
-```bash
-pip install foobar
+Place your terminal PATH into the folder
+
+-  Type this command into your terminal :
+```ruby
+$ bundle install
 ```
+You'r ready !
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```ruby
+"Launch :"
+shotgun -p 4567
 ```
+Enjoy !!
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## Thanks to
+ME ! ME ! and MEEEEEE! XDDDDDD
+and my teamates, of course ! ;)
 
 ## Contact
 [Chris](https://www.facebook.com/chris.boyer.7359)

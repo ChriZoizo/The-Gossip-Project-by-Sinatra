@@ -6,22 +6,19 @@
   h2 {text-align: center}
   h4 {text-align: center}
   p {text-align: center}
-</style>
-    <title>Chris Gossip Project</title>    
+  </style>
+    <title>Chris Gossip Project</title>                               
   </head>
   <body style="background-color:lightgrey;">
     <h1>Bienvenue</h1>
-    <h3 style="color:darkred;" >Pour creer une nouvelle connerie, c'est =><a href="/gossips/new/">ICI</a></h3> 
-      <h2>Voici la liste des potins :</h2>
-      <% gossips.each_with_index do |gossip, index| %>     <!--on recupere le contenus du csv et on en fait un index-->     
-        <h3><li>                                            <!--On le met sous forme de liste, pour que ce soit moins moche XD-->     
-        <%= gossip.author %></h3>                      <!--Affichage de l'auteur-->     
-        <h4><%= gossip.content %><br/>            <!--Affichage du contenu-->     
-        <a href=<%="/gossips/#{index}"%>>Afficher le potin</a></h4><br/>    <!--Lien menant au "SHOW" du potin-->     
-        
-        </li>
-        <% end %>
-                     <!-- Lien pour creer nouveau gossip -->    
-                
+      <h3 style="color:darkred;" >Pour creer une nouvelle connerie, c'est =><a href="/gossips/new/">ICI</a></h3>     <!-- Lien pour creer nouveau gossip -->          
+        <h2>Voici la liste des potins :</h2>
+        <% gossips.each_with_index do |gossip, index| %>                       <!--on recupere le contenus du csv et on en fait un index-->     
+      <h3><li>                                                                 <!--On le met sous forme de liste, pour que ce soit moins moche XD-->     
+        <%= gossip.author %></h3>                                              <!--Affichage de l'auteur-->     
+          <h4><%= gossip.content %><br/>                                       <!--Affichage du contenu-->     
+          <a href=<%="/gossips/#{index}"%>>Afficher le potin</a></h4><br/>     <!--Lien menant au "SHOW" du potin-->     
+      </li>
+    <% end %>
   </body>
 </html>
