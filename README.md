@@ -1,3 +1,11 @@
+Salut a toi correcteur ! Sur ce projet j'ai avancer jusqu'a l'edition (2.7 de la ressource THP). il ne manque plus que les commentaires, mais je n'ai pas eu le temps de le faire. le projet m'as pris environs 8 heures. j'ai bien galerer pour l'option update. mais on a reussis avec l'equipe ^^.Normalement mon app est parfaitement fonctionnel. 
+voilaa!! bon courage ^^
+
+
+
+
+
+
 # Chris Gossip Project
 
 This is the Gossip Project from the school THP
