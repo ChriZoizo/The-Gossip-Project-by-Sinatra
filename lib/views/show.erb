@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Potin</title>
+        <style>
+      h1 {text-align: center}
+      h2 {text-align: center}
+      h3 {text-align: center}
+      h4 {text-align: center}
+      ul {text-align: center}
+      li {text-align: center}
+      p {text-align: center}
+    </style>
+  </head>
+    <body style="background-color:lightgrey;">
+      <h1><b>Fiche</b></h1>
+        <h2>Voici le potin <%"N° #{id}"%></h2>
+          <h3 style="color:darkred;"><%= gossip.author%></div></h3>
+            <h4><%= gossip.content%><br/></h4>
+          <h2><a href=<%="/gossips/#{id}/edit/"%> style=color:darkred>Editer</a></h2>
+            <h4>Pour revenir a l'index clique =>> <a href="/">ICI</a> <<=</h4>
+          </body>
+        </html>
